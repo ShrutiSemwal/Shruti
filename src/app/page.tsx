@@ -1,7 +1,11 @@
+import Hero from "./sections/Hero";
 
-
-export default function Home() {
+const Page = () => {
   return (
-  <h1>Hi! I am Shruti.</h1>
+   <>
+   <Hero/>
+   </>
   );
-}
+};
+
+export default Page;
