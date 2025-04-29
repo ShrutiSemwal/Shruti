@@ -1,12 +1,14 @@
+import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
 import Showcase from "./sections/Showcase";
 
 const Page = () => {
   return (
-   <>
-   <Hero/>
-   <Showcase/>
-   </>
+    <>
+      <Navbar />
+      <Hero />
+      <Showcase />
+    </>
   );
 };
 
