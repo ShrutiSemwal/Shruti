@@ -40,7 +40,7 @@ const Hero = () => {
               <h1>Hi, Shruti here.</h1>
               <h1>
                 {" "}
-                I shape
+                I develop
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word) => (
@@ -60,7 +60,7 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
+              <h1>into Visual Solutions</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10">
               Currently based in Dehradun, Uttarakhand, India
@@ -68,7 +68,7 @@ const Hero = () => {
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
               id="button"
-              text="Side Projects"
+              text="Know me"
             />
           </div>
         </header>
