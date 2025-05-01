@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Showcase = () => {
+const Showcase: any = () => {
   const sectionRef = useRef(null);
   const project1Ref = useRef(null);
   const project2Ref = useRef(null);
@@ -54,9 +54,13 @@ const Showcase = () => {
         <div className="showcaselayout">
           {/* Left */}
           <div className="first-project-wrapper" ref={project1Ref}>
-            <div className="image-wrapper">
+            <a
+              className="image-wrapper"
+              target="_blank"
+              href="https://next-book-store-mocha.vercel.app/"
+            >
               <img src="/images/project1.png" alt="Next Book Store" />
-            </div>
+            </a>
             <div className="text-content">
               <h2>
                 Create Books' themes, display them and browse other books
@@ -72,7 +76,12 @@ const Showcase = () => {
           </div>
           {/* Right */}
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={project2Ref}>
+            <a
+              href="https://house-marketplace-blond-tau.vercel.app/"
+              target="_blank"
+              className="project"
+              ref={project2Ref}
+            >
               <div className="image-wrapper bg-[#ffefdb]">
                 <img src="/images/project2.png" alt="House Marketplace App" />
               </div>
@@ -80,13 +89,18 @@ const Showcase = () => {
                 {" "}
                 House Marketplace App- Find and list houses for sale or for rent{" "}
               </h2>
-            </div>
-            <div className="project" ref={project3Ref}>
+            </a>
+            <a
+              href="https://github.com/ShrutiSemwal/Online-Store"
+              target="_blank"
+              className="project"
+              ref={project3Ref}
+            >
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="/images/project3.png" alt="Online Room Decor Store" />
               </div>
               <h2> Online Room Decor Store</h2>
-            </div>
+            </a>
           </div>
         </div>
       </div>

@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Shruti",
-  description: "Know me",
+  description: "Personal Website",
+  icons: {
+    icon: "/favicon.ico", // or /favicon.png, /favicon.svg
+  },
 };
 
 export default function RootLayout({
@@ -24,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>

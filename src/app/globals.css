@@ -12,7 +12,13 @@ body {
   background-color: black;
   color: white;
   scroll-behavior: smooth;
-  font-family: "Mona Sans", sans-serif;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 section {
