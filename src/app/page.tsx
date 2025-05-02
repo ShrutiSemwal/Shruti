@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import AboutMe from "./sections/AboutMe";
 import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
 import FeatureCards from "./sections/FeatureCards";
@@ -12,6 +13,7 @@ const Page = () => {
     <>
       <Navbar />
       <Hero />
+      <AboutMe />
       <TechStack />
       <Experience />
       <Showcase />

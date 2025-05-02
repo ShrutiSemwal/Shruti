@@ -2,9 +2,8 @@
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import TechIcon from "../components/Models/TechLogos/TechIcon";
 import TitleHeader from "../components/TitleHeader";
-import { techStackIcons, techStackImgs } from "../constants";
+import { techStackImgs } from "../constants";
 
 const TechStack = () => {
   // Animate the tech cards in the skills section
@@ -37,7 +36,10 @@ const TechStack = () => {
   return (
     <div id="skills" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
-        <TitleHeader title="Skill Set" sub="Technologies I've worked with" />
+        <TitleHeader
+          title="Skill Set"
+          sub="Technologies I've been working with"
+        />
         <div className="tech-grid">
           {/* Loop through the techStackIcons array and create a component for each item. 
               The key is set to the name of the tech stack icon, and the classnames are set to 
