@@ -42,13 +42,13 @@ const AboutMe = () => {
               I'm a Research Scholar at <b>DIT University</b>, Dehradun,
               specializing in Artificial Intelligence, Machine Learning, and
               Robotics. During my B.Tech at{" "}
-              <b>Lovely Professional University</b>, Jalandhar, I also explored
-              Web Development.
+              <b>Lovely Professional University</b>, Jalandhar, I also gained
+              experience in Full Stack Web Development.
             </p>
             <p className="text-white-50 md:text-xl">
               Beyond the technical realm, I'm a nemophilist who loves spending
-              time in nature. I enjoy reading, clicking landscape photos, and
-              editing them for Instagram.
+              time in nature. I enjoy reading, learning new things, clicking
+              landscape photos, and editing them for Instagram.
             </p>
           </div>
 
