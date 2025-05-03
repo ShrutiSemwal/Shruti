@@ -39,16 +39,16 @@ const AboutMe = () => {
           {/* LEFT: Text */}
           <div className="profile-section flex-1 flex flex-col gap-7">
             <p className="text-white-50 md:text-xl">
-              I'm a Research Scholar at <b>DIT University</b>, Dehradun,
+              I'm a Research Scholar at <b>DIT University, Dehradun</b>,
               specializing in Artificial Intelligence, Machine Learning, and
               Robotics. During my B.Tech at{" "}
-              <b>Lovely Professional University</b>, Jalandhar, I also gained
-              experience in Full Stack Web Development.
+              <b>Lovely Professional University, Jalandhar</b>, I also explored
+              Full Stack Web Development.
             </p>
             <p className="text-white-50 md:text-xl">
               Beyond the technical realm, I'm a nemophilist who loves spending
-              time in nature. I enjoy reading, learning new things, clicking
-              landscape photos, and editing them for Instagram.
+              time in nature. I enjoy book reading, writing, learning about new
+              things, clicking landscape photos, and editing them.
             </p>
           </div>
 

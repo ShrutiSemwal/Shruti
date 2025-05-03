@@ -115,7 +115,7 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Displayed strong initiative and technical rigor in developing deep learning models for building segmentation during master's research.",
+      "Displayed strong initiative and technical rigor in developing deep learning models for different problem statements during master's research.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.jpg",
     title: "Research Scholar",
