@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Showcase: any = () => {
+const Showcase = () => {
   const sectionRef = useRef(null);
   const project1Ref = useRef(null);
   const project2Ref = useRef(null);
