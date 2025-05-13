@@ -39,9 +39,9 @@ const AboutMe = () => {
           {/* LEFT: Text */}
           <div className="profile-section flex-1 flex flex-col gap-7">
             <p className="text-white-50 md:text-xl">
-              I'm a software developer, passionate about building impactful
+              I am a software developer, passionate about building impactful
               solutions at the intersection of Web Development and Artificial
-              Intelligence/Machine Learning. I'm also experienced in applying
+              Intelligence/Machine Learning. I am also experienced in applying
               deep learning techniques, with a focus on sustainability and
               real-world applications.
             </p>
@@ -50,7 +50,7 @@ const AboutMe = () => {
               web platforms.
             </p>
             <p className="text-white-50 md:text-xl">
-              Beyond the technical realm, I'm a nemophilist who loves spending
+              Beyond the technical realm, I am a nemophilist who loves spending
               time in nature. I enjoy book reading, writing stuff, learning
               about new things, clicking landscape photos, and editing them for
               fun.
