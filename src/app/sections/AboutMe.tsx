@@ -41,7 +41,7 @@ const AboutMe = () => {
             <p className="text-white-50 md:text-xl">
               I'm a software developer, passionate about building impactful
               solutions at the intersection of Web Development and Artificial
-              Intelligence/Machine Learning.I'm also experienced in applying
+              Intelligence/Machine Learning. I'm also experienced in applying
               deep learning techniques, with a focus on sustainability and
               real-world applications.
             </p>

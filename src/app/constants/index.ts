@@ -119,11 +119,11 @@ const expCards = [
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.jpg",
     title: "Research Scholar",
-    date: "August 2024 - April 2025",
+    date: "August 2024 - March 2025",
     responsibilities: [
       "Developed a robust U-Net-based building semantic segmentation model with a validation accuracy of 98.1% and mean IoU of 87%, targeting sustainable architecture applications.",
       "Authored a thesis and co-wrote multiple journals and a conference paper, focusing on deep learning for green building segmentation.",
-      "Filed for a patent on a novel sustainable approach integrating edge detection and attention mechanism in U-Net architecture.",
+      "Filed a patent demonstrating a measurable reduction in air pollution levels—from 500 ppm to 165 ppm—using an IoT-enabled system with Arduino, MQ135sensor, and cloud-based data monitoring.",
       // "Utilized Python, TensorFlow, and OpenCV for data preprocessing, model training, and performance evaluation.",
       "Collaborated with faculty advisors to optimize models and align research output with problem statements.",
     ],
