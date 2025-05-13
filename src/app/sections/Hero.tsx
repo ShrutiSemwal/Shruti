@@ -2,6 +2,7 @@
 
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
+import FractalCanvas from "../components/Fractal/FractalCanvas";
 import HeroExperience from "../components/HeroModels/HeroExperience";
 import { words } from "../constants";
 import { useGSAP } from "@gsap/react";
@@ -73,11 +74,10 @@ const Hero = () => {
           </div>
         </header>
         {/* RIGHT: 3D MODEL/FRACTAL COMPONENT */}
-        <figure>
-          <div className="hero-3d-layout">
-            <HeroExperience />
-          </div>
-        </figure>
+        <div className="md:w-1/2 flex justify-center mt-10 md:mt-0 -translate-x-6">
+          {/* <HeroExperience /> */}
+          <FractalCanvas />
+        </div>
       </div>
       <AnimatedCounter />
     </section>
