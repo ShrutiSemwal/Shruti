@@ -9,7 +9,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 10;
-      setScrolled(true);
+      setScrolled(isScrolled);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -37,7 +37,7 @@ const Navbar = () => {
 
         <a href="#contact" className="contact-btn group">
           <div className="inner">
-            <span>Let's Connect!</span>
+            <span>Let&apos;s Connect!</span>
           </div>
         </a>
       </div>

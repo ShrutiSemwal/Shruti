@@ -2,8 +2,8 @@ import type { Sketch } from "react-p5-wrapper";
 import p5 from "p5";
 
 const sketch: Sketch = (p: p5) => {
-  let radius = 100;
-  let depth = 4;
+  const radius = 100;
+  const depth = 4;
   let angleOffset = 0;
   let mergeFactor = 0;
   let merging = true;

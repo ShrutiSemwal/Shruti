@@ -63,7 +63,7 @@ const Showcase = () => {
             </a>
             <div className="text-content">
               <h2>
-                Create Books' themes, display them and browse other books
+                Create Books&apos; themes, display them and browse other books
                 through a clean minimalist App called Next Book Store
               </h2>
               <p className="text-white-50 md:text-xl">

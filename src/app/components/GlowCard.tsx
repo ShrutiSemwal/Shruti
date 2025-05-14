@@ -3,7 +3,9 @@
 import { ReactNode, useRef } from "react";
 
 interface CardProps {
-  card: Record<string, any>;
+  card: {
+    review: string;
+  };
   children: ReactNode;
   index: number;
 }
