@@ -44,7 +44,7 @@ const projects = [
   },
   {
     techStack: "Python, Tensorflow and Keras",
-    url: "",
+    url: "https://github.com/ShrutiSemwal/MTech.-Dissertation-UNet-with-Attention-Mechanism",
     title: "UNet with Attention-DL Model",
     desc: "Research work contributed to the integration of green building domain and deep learning domain for sustainable development using AI.",
   },
@@ -137,7 +137,7 @@ const expCards = [
     date: "January 2022 - July 2022",
     responsibilities: [
       "Completed an intensive internship under the ADM DotNet FSE React Integrated domain.",
-      "Collaborated with a cross-functional cohort to design and build a functional web application using .NET Core by following Agile methodology .",
+      "Built a web-app of .NET Core and SQL Server features in an Agile environment in a cross-functional team.",
       "Published a project repository that received 7 stars on GitHub, demonstrating community recognition and code quality.",
       "Achieved a performance evaluation score of 4.2/5 for consistent learning, teamwork, and project contribution.",
     ],
