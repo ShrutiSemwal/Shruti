@@ -1,5 +1,4 @@
 "use client";
-
 import { useRef } from "react";
 import { gsap } from "gsap/gsap-core";
 import { useGSAP } from "@gsap/react";
@@ -87,7 +86,8 @@ const Showcase = () => {
               </div>
               <h2>
                 {" "}
-                House Marketplace App- Find and list houses for sale or for rent{" "}
+                House Marketplace App- List, browse and filter properties for
+                sale or for rent{" "}
               </h2>
             </a>
             <a
@@ -99,7 +99,7 @@ const Showcase = () => {
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="/images/project3.png" alt="Online Room Decor Store" />
               </div>
-              <h2> Online Room Decor Store</h2>
+              <h2> Online Room Decor Store with Real-time Order Tracking</h2>
             </a>
           </div>
         </div>

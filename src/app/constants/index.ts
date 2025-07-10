@@ -52,7 +52,7 @@ const projects = [
     techStack: "Python, Tensorflow and Keras",
     url: "https://github.com/ShrutiSemwal/Keras-API-Project",
     title: "Keras API Project",
-    desc: "Classification Model to predict whether or not a borrower would pay back their loan.",
+    desc: "Classification Model with an accuracy of 88% to predict whether or not a borrower would pay back their loan.",
   },
 ];
 
@@ -121,11 +121,10 @@ const expCards = [
     title: "Research Scholar",
     date: "August 2024 - March 2025",
     responsibilities: [
-      "Developed a robust U-Net-based building semantic segmentation model with a validation accuracy of 98.1% and mean IoU of 87%, targeting sustainable architecture applications.",
-      "Authored a thesis and co-wrote multiple journals and a conference paper, focusing on deep learning for green building segmentation.",
-      "Filed a patent demonstrating a measurable reduction in air pollution levels—from 500 ppm to 165 ppm—using an IoT-enabled system with Arduino, MQ135sensor, and cloud-based data monitoring.",
-      // "Utilized Python, TensorFlow, and OpenCV for data preprocessing, model training, and performance evaluation.",
-      "Collaborated with faculty advisors to optimize models and align research output with problem statements.",
+      "Engineered a deep learning pipeline using Python, TensorFlow, and OpenCV to develop a U-Net-based semantic segmentation model for urban building facades, achieving 98.1% accuracy.",
+      "Presented a conference paper (in the publication pipeline) at the 4th International Conference on Innovative Sustainable Computational Technologies-2024 (CISCT) co-sponsored by IEEE UP Section",
+      "Authored a thesis exploring deep learning applications, with a journal under review in Evergreen.",
+      "Published Patent application, demonstrating measurable air pollution levels reduction; from 500 ppm to 165 ppm, using Arduino, MQ135 sensor, and cloud-based monitoring for sustainable Urban Greening",
     ],
   },
   {
@@ -136,9 +135,9 @@ const expCards = [
     title: "Programmer Analyst Trainee",
     date: "January 2022 - July 2022",
     responsibilities: [
-      "Completed an intensive internship under the ADM DotNet FSE React Integrated domain.",
-      "Built a web-app of .NET Core and SQL Server features in an Agile environment in a cross-functional team.",
-      "Published a project repository that received 7 stars on GitHub, demonstrating community recognition and code quality.",
+      "Completed an intensive ADM DotNet FSE internship, mastering React with 100% practice completion and an overall score of 87%.",
+      "Developed and delivered a .NET Core MVC web application in a cross-functional 5-member team (60-member cohort), meeting all sprint goals in an Agile environment.",
+      "Created a project repository that received 9 stars on GitHub, demonstrating community recognition.",
       "Achieved a performance evaluation score of 4.2/5 for consistent learning, teamwork, and project contribution.",
     ],
   },
