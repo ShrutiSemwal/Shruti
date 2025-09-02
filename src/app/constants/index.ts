@@ -121,15 +121,15 @@ const expCards = [
     title: "Research Scholar",
     date: "August 2024 - March 2025",
     responsibilities: [
-      "Engineered a deep learning pipeline using Python, TensorFlow, and OpenCV to develop a U-Net-based semantic segmentation model for urban building facades, achieving 98.1% accuracy.",
-      "Presented a conference paper (in the publication pipeline) at the 4th International Conference on Innovative Sustainable Computational Technologies-2024 (CISCT) co-sponsored by IEEE UP Section",
+      "Engineered a deep learning pipeline using Python, TensorFlow, and OpenCV to develop a U-Net-based semantic segmentation model for urban building facades, achieving 98.1% accuracy and 87% mean Intersection over Union.",
+      "Authored and presented a conference paper at the 4th International Conference on Innovative Sustainable Computational Technologies-2024 (CISCT) co-sponsored by IEEE UP Section.",
       "Authored a thesis exploring deep learning applications, with a journal under review in Evergreen.",
       "Published Patent application, demonstrating measurable air pollution levels reduction; from 500 ppm to 165 ppm, using Arduino, MQ135 sensor, and cloud-based monitoring for sustainable Urban Greening",
     ],
   },
   {
     review:
-      "Contributed meaningfully during my tenure at Cognizant, showing a keen interest in full-stack development and collaborative problem solving.",
+      "Achieved a performance evaluation score of 4.2/5 for consistent learning, teamwork, and project contribution.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Programmer Analyst Trainee",
@@ -137,8 +137,7 @@ const expCards = [
     responsibilities: [
       "Completed an intensive ADM DotNet FSE internship, mastering React with 100% practice completion and an overall score of 87%.",
       "Developed and delivered a .NET Core MVC web application in a cross-functional 5-member team (60-member cohort), meeting all sprint goals in an Agile environment.",
-      "Created a project repository that received 9 stars on GitHub, demonstrating community recognition.",
-      "Achieved a performance evaluation score of 4.2/5 for consistent learning, teamwork, and project contribution.",
+      //"Created a project repository that received 9 stars on GitHub, demonstrating community recognition.",
     ],
   },
 ];
