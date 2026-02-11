@@ -3,7 +3,7 @@ import { projects } from "../constants";
 const FeatureCards = () => {
   return (
     <div className="w-full padding-x-lg">
-      <div className="mx-auto grid-3-cols">
+      <div className="mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 max-w-6xl">
         {projects.map(({ techStack, title, desc, url }) => (
           <a
             href={url}

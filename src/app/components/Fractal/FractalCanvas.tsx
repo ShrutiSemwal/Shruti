@@ -2,10 +2,12 @@
 
 import dynamic from "next/dynamic";
 import sketch from "./FractalSketch";
-const Sketch = dynamic(() => import("react-p5-wrapper").then(mod => mod.ReactP5Wrapper), {
-  ssr: false,
-});
-
+const Sketch = dynamic(
+  () => import("react-p5-wrapper").then((mod) => mod.ReactP5Wrapper),
+  {
+    ssr: false,
+  },
+);
 
 export default function FractalCanvas() {
   return (

@@ -24,7 +24,7 @@ const AboutMe = () => {
           trigger: "#about-me",
           start: "top center",
         },
-      }
+      },
     );
   });
   return (
@@ -39,21 +39,20 @@ const AboutMe = () => {
           {/* LEFT: Text */}
           <div className="profile-section flex-1 flex flex-col gap-7">
             <p className="text-white-50 md:text-xl">
-              I am a software developer, passionate about building impactful
-              solutions at the intersection of Web Development and Artificial
-              Intelligence/Machine Learning. I am also experienced in applying
-              deep learning techniques, with a focus on sustainability and
-              real-world applications.
+              I am passionate about building data-driven solutions at the
+              intersection of Artificial Intelligence, Machine Learning, and
+              real-world problem solving. My work focuses on deep learning,
+              computer vision, and applied AI research, with a focus on
+              sustainability and real-world applications.
             </p>
             <p className="text-white-50 md:text-xl">
-              Currently exploring ways to integrate AI with clean, user-centric
-              web platforms.
+              Currently deepening my expertise in advanced ML techniques, data
+              analysis, and model deployment to build scalable AI solutions.
             </p>
             <p className="text-white-50 md:text-xl">
               Beyond the technical realm, I am a nemophilist who loves spending
-              time in nature. I enjoy book reading, writing stuff, learning
-              about new things, clicking landscape photos, and editing them for
-              fun.
+              time in nature. I enjoy book reading, writing, learning about new
+              things, capturing landscape photos, and editing them for fun.
             </p>
           </div>
 

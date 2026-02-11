@@ -19,12 +19,12 @@ const navLinks = [
 
 const words = [
   { id: "1", text: "Ideas", imgPath: "/images/ideas.svg" },
-  { id: "2", text: "Concepts", imgPath: "/images/concepts.svg" },
-  { id: "3", text: "Designs", imgPath: "/images/designs.svg" },
+  { id: "2", text: "Patterns", imgPath: "/images/concepts.svg" },
+  { id: "3", text: "Models", imgPath: "/images/designs.svg" },
   { id: "4", text: "Code", imgPath: "/images/code.svg" },
   { id: "5", text: "Ideas", imgPath: "/images/ideas.svg" },
-  { id: "6", text: "Concepts", imgPath: "/images/concepts.svg" },
-  { id: "7", text: "Designs", imgPath: "/images/designs.svg" },
+  { id: "6", text: "Patterns", imgPath: "/images/concepts.svg" },
+  { id: "7", text: "Models", imgPath: "/images/designs.svg" },
   { id: "8", text: "Code", imgPath: "/images/code.svg" },
 ];
 
@@ -36,12 +36,12 @@ const counterItems = [
 ];
 
 const projects = [
-  {
-    techStack: "React and Reducer",
-    url: "https://github-finder-steel-nine.vercel.app/",
-    title: "Github Finder",
-    desc: "React app to find users on github and navigate to their profiles using github API.",
-  },
+  // {
+  //   techStack: "React and Reducer",
+  //   url: "https://github-finder-steel-nine.vercel.app/",
+  //   title: "Github Finder",
+  //   desc: "React app to find users on github and navigate to their profiles using github API.",
+  // },
   {
     techStack: "Python, Tensorflow and Keras",
     url: "https://github.com/ShrutiSemwal/MTech.-Dissertation-UNet-with-Attention-Mechanism",
@@ -58,16 +58,16 @@ const projects = [
 
 const techStackImgs = [
   {
-    name: "Javascript",
-    imgPath: "/images/logos/js.webp",
-  },
-  {
     name: "React.js",
     imgPath: "/images/logos/react.png",
   },
   {
     name: "Next.js",
     imgPath: "/images/logos/nextjs.png",
+  },
+  {
+    name: "SQL",
+    imgPath: "/images/logos/sql.png",
   },
   {
     name: "Python",
