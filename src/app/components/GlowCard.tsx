@@ -2,6 +2,16 @@
 
 import { ReactNode, useRef } from "react";
 
+// interface CardProps {
+//   card: {
+//     review: string;
+//     imgPath?: string;
+//     title?: string;
+//   };
+//   children: ReactNode;
+//   index: number;
+// }
+
 interface CardProps {
   children: ReactNode;
   index: number;
