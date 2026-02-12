@@ -135,9 +135,9 @@ const expCards = [
     title: "Programmer Analyst Trainee",
     date: "January 2022 - July 2022",
     responsibilities: [
-      "Completed an intensive ADM DotNet FSE internship, mastering React with 100% practice completion and an overall score of 87%.",
+      "Completed an intensive ADM DotNet FSE internship, with an overall score of 87%.",
       "Developed and delivered a .NET Core MVC web application in a cross-functional 5-member team (60-member cohort), meeting all sprint goals in an Agile environment.",
-      //"Created a project repository that received 9 stars on GitHub, demonstrating community recognition.",
+      "Achieved a performance evaluation score of 4.2/5.",
     ],
   },
 ];

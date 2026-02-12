@@ -52,7 +52,7 @@ const Hero = () => {
                         <img
                           src={word.imgPath}
                           alt={word.text}
-                          className="xl: size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
+                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
                         />
                         <span>{word.text}</span>
                       </span>
@@ -73,7 +73,7 @@ const Hero = () => {
           </div>
         </header>
         {/* RIGHT: 3D MODEL/FRACTAL COMPONENT */}
-        <div className="md:w-1/2 flex justify-center mt-10 md:mt-0 -translate-x-6">
+        <div className="hero-3d-layout md:w-1/2 flex justify-center mt-10 md:mt-0 -translate-x-6">
           <FractalCanvas />
         </div>
       </div>
