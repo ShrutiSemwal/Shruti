@@ -3,14 +3,11 @@
 import { ReactNode, useRef } from "react";
 
 interface CardProps {
-  card: {
-    review: string;
-  };
   children: ReactNode;
   index: number;
 }
 
-const GlowCard = ({ card, children, index }: CardProps) => {
+const GlowCard = ({ children, index }: CardProps) => {
   // refs for all the cards
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
