@@ -36,23 +36,29 @@ const counterItems = [
 ];
 
 const projects = [
-  // {
-  //   techStack: "React and Reducer",
-  //   url: "https://github-finder-steel-nine.vercel.app/",
-  //   title: "Github Finder",
-  //   desc: "React app to find users on github and navigate to their profiles using github API.",
-  // },
   {
-    techStack: "Python, Tensorflow and Keras",
-    url: "https://github.com/ShrutiSemwal/MTech.-Dissertation-UNet-with-Attention-Mechanism",
-    title: "UNet with Attention-DL Model",
-    desc: "Research work contributed to the integration of green building domain and deep learning domain for sustainable development using AI.",
+    techStack: "Python, Pandas, Pytrends",
+    url: "https://github.com/ShrutiSemwal/Google-Search-Analysis",
+    title: "Google Search Analysis",
+    desc: "This project analyzes Google search trends to explore how search interest in AI-related terms has evolved over time and across regions.",
   },
   {
-    techStack: "Python, Tensorflow and Keras",
-    url: "https://github.com/ShrutiSemwal/Keras-API-Project",
-    title: "Keras API Project",
-    desc: "Classification Model with an accuracy of 88% to predict whether or not a borrower would pay back their loan.",
+    techStack: "Python, Statistics, Numpy",
+    url: "https://github.com/ShrutiSemwal/Statistics/blob/main/Hypothesis_Testing.ipynb",
+    title: "Hypothesis Testing",
+    desc: "Applied a one-tailed t-test to determine if projected ATM transactions exceed the 4,000/month profitability threshold for a data-driven investment decision.",
+  },
+  {
+    techStack: "React, Firebase, Vercel",
+    url: "https://house-marketplace-blond-tau.vercel.app/",
+    title: "House Marketplace App",
+    desc: "List, browse and filter properties for sale or for rent.",
+  },
+  {
+    techStack: "NodeJS, Express, MongoDB, Tailwind CSS, Socket.io",
+    url: "https://github.com/ShrutiSemwal/Online-Store",
+    title: "Online Room Decor Store",
+    desc: "Online Room Decor Store with Real-time Order Tracking.",
   },
 ];
 
@@ -123,7 +129,7 @@ const expCards = [
     responsibilities: [
       "Engineered a deep learning pipeline using Python, TensorFlow, and OpenCV to develop a U-Net-based semantic segmentation model for urban building facades, achieving 98.1% accuracy and 87% mean Intersection over Union.",
       "Authored and presented a conference paper at the 4th International Conference on Innovative Sustainable Computational Technologies-2024 (CISCT) co-sponsored by IEEE UP Section.",
-      "Authored a thesis exploring deep learning applications, with a journal under review in Evergreen.",
+      "Authored a thesis exploring deep learning applications, with a journal accepted for publication in Evergreen.",
       "Published Patent application, demonstrating measurable air pollution levels reduction; from 500 ppm to 165 ppm, using Arduino, MQ135 sensor, and cloud-based monitoring for sustainable Urban Greening",
     ],
   },

@@ -18,7 +18,7 @@ const Showcase = () => {
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 }
+      { opacity: 1, duration: 1.5 },
     );
 
     // Animations for each app showcase
@@ -43,7 +43,7 @@ const Showcase = () => {
             trigger: card,
             start: "top bottom-=100",
           },
-        }
+        },
       );
     });
   }, []);
@@ -56,50 +56,59 @@ const Showcase = () => {
             <a
               className="image-wrapper"
               target="_blank"
-              href="https://next-book-store-mocha.vercel.app/"
+              href="https://github.com/ShrutiSemwal/MTech.-Dissertation-UNet-with-Attention-Mechanism"
             >
-              <img src="/images/project1.png" alt="Next Book Store" />
+              <img
+                src="/images/project1.png"
+                alt="UNet with Attention-DL Model"
+              />
             </a>
             <div className="text-content">
               <h2>
-                Create Books&apos; themes, display them and browse other books
-                through a clean minimalist App called Next Book Store
+                Optimizing Green Building Implementation via Deep
+                Learning-Powered Segmentation Techniques
               </h2>
               <p className="text-white-50 md:text-xl">
-                This project showcases the latest features of Next.js 15,
-                including Next.js Form for seamless client-side form
-                submissions, Server Component HMR Cache for faster development,
-                and Partial Prerendering for performance optimization.
+                Designed a U-Net model, integrating Spatial Multiplicative Cross
+                Attention Mechanism for facade segmentation, reaching 87% mean
+                IoU and 93% F1-Score.
               </p>
             </div>
           </div>
           {/* Right */}
           <div className="project-list-wrapper overflow-hidden">
             <a
-              href="https://house-marketplace-blond-tau.vercel.app/"
+              href="https://safewalk-eydmparjpfpwyvzkq2vru4.streamlit.app/"
               target="_blank"
               className="project"
               ref={project2Ref}
             >
-              <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" alt="House Marketplace App" />
+              <div className="image-wrapper bg-[#ffe7eb]">
+                <img
+                  src="/images/project2.png"
+                  alt="SafeWalk | Pedestrian Infrastructure Safety "
+                />
               </div>
               <h2>
                 {" "}
-                House Marketplace App- List, browse and filter properties for
-                sale or for rent{" "}
+                A computer vision pipeline built using YOLOv8 and OpenCV for
+                pedestrian sidewalk safety analysis and obstacle detection.{" "}
               </h2>
             </a>
+
             <a
-              href="https://github.com/ShrutiSemwal/Online-Store"
+              href="https://next-book-store-mocha.vercel.app/"
               target="_blank"
               className="project"
               ref={project3Ref}
             >
-              <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="Online Room Decor Store" />
+              <div className="image-wrapper bg-[#ffefdb]">
+                <img src="/images/project3.png" alt="Next Book Store" />
               </div>
-              <h2> Online Room Decor Store with Real-time Order Tracking</h2>
+              <h2>
+                Create Books&apos; themes, display them and browse other books
+                through a clean minimalist App called Next Book Store.
+              </h2>
             </a>
           </div>
         </div>
