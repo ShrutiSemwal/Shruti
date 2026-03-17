@@ -129,7 +129,7 @@ const expCards = [
     responsibilities: [
       "Engineered a deep learning pipeline using Python, TensorFlow, and OpenCV to develop a U-Net-based semantic segmentation model for urban building facades, achieving 98.1% accuracy and 87% mean Intersection over Union.",
       "Authored and presented a conference paper at the 4th International Conference on Innovative Sustainable Computational Technologies-2024 (CISCT) co-sponsored by IEEE UP Section.",
-      "Authored a thesis exploring deep learning applications, with a journal accepted for publication in Evergreen.",
+      "Authored a thesis exploring deep learning applications, with a related journal published in Evergreen.",
       "Published Patent application, demonstrating measurable air pollution levels reduction; from 500 ppm to 165 ppm, using Arduino, MQ135 sensor, and cloud-based monitoring for sustainable Urban Greening",
     ],
   },

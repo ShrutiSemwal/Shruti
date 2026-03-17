@@ -56,7 +56,7 @@ const Showcase = () => {
             <a
               className="image-wrapper"
               target="_blank"
-              href="https://github.com/ShrutiSemwal/MTech.-Dissertation-UNet-with-Attention-Mechanism"
+              href="https://catalog.lib.kyushu-u.ac.jp/opac_detail_md/?lang=1&amode=MD100000&bibid=7407641"
             >
               <img
                 src="/images/project1.png"
@@ -78,7 +78,7 @@ const Showcase = () => {
           {/* Right */}
           <div className="project-list-wrapper overflow-hidden">
             <a
-              href="https://safewalk-eydmparjpfpwyvzkq2vru4.streamlit.app/"
+              href="https://safewalk-6fmwbqgbop6v4cd3bz4fj4.streamlit.app/"
               target="_blank"
               className="project"
               ref={project2Ref}
