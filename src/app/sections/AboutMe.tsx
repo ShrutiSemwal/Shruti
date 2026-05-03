@@ -39,6 +39,10 @@ const AboutMe = () => {
           {/* LEFT: Text */}
           <div className="profile-section flex-1 flex flex-col gap-7">
             <p className="text-white-50 md:text-xl">
+              I am an AI/ML enthusiast, currently working as a Data Analytics
+              Apprentice at Google (Trust & Safety).
+            </p>
+            <p className="text-white-50 md:text-xl">
               I am passionate about building data-driven solutions at the
               intersection of Artificial Intelligence, Machine Learning, and
               real-world problem solving. My work focuses on deep learning,

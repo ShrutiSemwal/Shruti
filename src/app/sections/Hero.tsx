@@ -63,7 +63,7 @@ const Hero = () => {
               <h1>into Visual Solutions</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10">
-              Currently based in Dehradun, Uttarakhand, India
+              Currently based in Hyderabad, Telangana, India
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"

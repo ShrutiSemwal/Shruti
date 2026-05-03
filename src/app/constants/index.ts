@@ -120,6 +120,14 @@ const techStackIcons = [
 
 const expCards = [
   {
+    review: "",
+    imgPath: "/images/exp3.jpg",
+    logoPath: "/images/logo3.png",
+    title: "Data Analytics Apprentice",
+    date: "March 2026 - Present",
+    responsibilities: ["Team assigned is Trust & Safety."],
+  },
+  {
     review:
       "Displayed strong initiative and technical rigor in developing deep learning models for different problem statements during master's research.",
     imgPath: "/images/exp1.png",
