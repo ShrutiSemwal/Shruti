@@ -121,7 +121,7 @@ const techStackIcons = [
 const expCards = [
   {
     review: "",
-    imgPath: "/images/exp3.jpg",
+    imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "Data Analytics Apprentice",
     date: "March 2026 - Present",
